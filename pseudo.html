@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        h3{
+            color: rgb(252, 32, 32);
+        }
+        h3:hover{
+            color: blue;
+            background-color: black;
+            width: 100px;
+        }
+        input:focus{
+            color: blueviolet;
+        }
+        a:visited{
+            color: red;
+        }
+        a{
+            text-decoration: none;
+        }
+        li:first-child{
+            background-color: green;
+            size: 10px;
+        }
+        li:last-child{
+            color: red;
+        }
+        li:nth-child(2n){
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+   <h3>pseudo</h3> 
+   <input type="text">
+   <input type="text">
+   <input type="text">
+   <br>
+   <a href="https://www.google.com/">Google</a>
+   <a href="https://www.freepik.com/photos/flower">Flower</a>
+
+   <ul>
+    <li>child one</li>
+    <li>child two</li>
+    <li>child three</li>
+    <li>child four</li>
+    <li>child five</li>
+    <li>child six</li>
+    <li>child seven</li>
+   </ul>
+</body>
+</html>
